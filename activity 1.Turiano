@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title> ACTIVITY 1 TURIANO </title>
+</head> 
+<body>
+      <h1> Adentures in Code-Fu </h1>
+      <h2> My HTML Journey  from <mark>Chaos </mark> to <mark> Cat Videos </mark> </h2>
+      <h3> Or, how I accidentally created a self-playing cat video website (and almost lost my sainty)</h3>
+      <p>  Armed with boundles <em> enthusiam and zero coding experiece </em>, I embarked on my quest to coquer <mark>HMTL </mark>
+        <br> <small>Little</small>  did I know my journey would be less<b> "Lord of the Rings" </b> and more <b>"three stooges." </b> </p>
+      <p>  My <INS> First website </INS> loving named <b> "Brenda's Blossoming Boutique" ,</b>  resembled a digital <mark>
+         Jackson Pollock</mark> <br>
+      Tags were <del> acattered</del>  like <em> confetti , colors clashed </em> like a sunset on <mark> Mars </mark> 
+      and the navigation system could only be <br> described as <B> "whimsical" <small>(by a very generous browser)</small></B> </p>
+      <p>Determined to redeem myself I tackled a <b>"Simple"</b> project: <mark> a cat video gallery</mark> What ensued was a 
+       <em>hilarious</em><br> <small>(and slightly terrifying)</small> <ins>ballet of misplaced semicolons, rogue line breaks.</ins>
+      and<ins> images</ins> that danced uncontrollaby <br> <del> across</del> the screen. At one point, my entire website transformed into an
+      <em> auto playing cat video slideshow,</em> much to <br>
+      the amusement <small>(and slight concern)</small>of my family</p> 
+      <p>After <ins> several meltdowns,</ins> <ins>countless tutorials</ins>.<ins>gallons of coffee</ins> i finally managed to wrangle my code into
+      <em> submission</em> <br>My cat video gallery wasn't exactly <b>"elegant"</b>, but it functioned <sup>(mostly)</sup> And hey,
+     at least I learned that even the <mark> clumsiest coder</mark> can create something... <em> interesting</em>. So, here's to
+     <mark>Brenda's Blossoming Boutique,</mark><mark><EM> The self-playing cat video extravaganza</EM></mark> and the <del> never-ending</del>
+     quest to master the art of<mark> HTML!</mark></p>
+       
+      </body>
+</html>
