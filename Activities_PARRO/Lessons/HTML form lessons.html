@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title> HTML Forms Lesson </title>
+</head>
+<body>
+    <form target="_blank">
+        <!-- TEXT FIELD TYPES -->
+        <h2> TEXTFIELD TYPES </h2>
+        <input type="text" value="First Name" required readonly/> <br>
+
+        <input type="text" placeholder="Last Name" minlength="5" maxlength="10" size="20"/> <br> 
+        <!-- EMAIL FIELD TYPES -->
+        <input type="email" placeholder="Email"/><br>
+        <!-- PASSWORD FIELD TYPES -->
+        <input type="password" placeholder="Password"/> <br>
+        <!-- NUMBER FIELD TYPES -->
+        <input type="number" placeholder="Number" step="2"/> <br>
+        <!-- PHONE NUMBER FIELD TYPES -->
+        <input type="tel" placeholder="Phone Number" minlength="11" maxlength="11" /> <br>
+        <!-- SEARCH FIELD TYPES -->
+        <input type="search" placeholder="Search"/> <br>
+        <!-- URL FIELD TYPES -->
+        <input type="url" placeholder="URL"/> <br>
+
+        <!-- DATE OR TIME TYPES -->
+        <h3>DATE / TIME TYPES </h3>
+
+        <input type="date" value="2024-03-11"/> <br>
+
+        <input type="date" value="2024-03-11" min="2023-12-25" max="2024-02-29"/> <br>
+
+        <input type="datetime-local" value="2023-05-29 12:00"/> <br>
+
+        <input type="month" value="2024-12"/> <br>
+
+        <input type="week" value="2024-W21" /> <br>
+
+        <input type="time" value="12:00" min="12:00 am" max="12:00 pm"/> <br> 
+
+        <!-- BUTTON TYPES -->
+        <h4>BUTTON TYPES</h4>
+
+        <!-- FILE BUTTON -->
+        <input type="file" multiple="image/*" /> <br>
+
+        <!-- CHECKBOX BUTTON -->
+        <input type="checkbox" id="Windows"/> 
+        <label> Microsoft Windows </label> <br> 
+        <input type="checkbox" id="Ubuntu"/> 
+        <label>Ubuntu </label> <br>
+        <input type="checkbox" id="Linux"/> 
+        <label>Linux </label><br> <br>
+
+
+        <!-- RADIO BUTTON -->
+        
+        <!-- yes or no -->
+        <input type="radio" id="YES" name="Answer"/> 
+        <label for="YES">YES</label> <br>
+        <input type="radio" id="NO" name="Answer"/>
+        <label for="NO">NO</label><br> <br>
+        <!-- agree or disagree -->
+        <input type="radio" id="Agree" name="Answer"/>
+        <label for="Agree">AGREE</label><br>
+        <input type="radio" id="Disagree" name="Answer"/>
+        <label for="Disagree"> DISAGREE </label><br><br> 
+
+        <!-- CLASSIC BUTTON TYPES -->
+
+        <input type="button" value="PROCEED"/> <br> <br> 
+
+        <!-- SUBMIT BUTTON -->
+        <input type="submit" value="CONTINUE"/><br> <br>
+
+        <!-- RESET BUTTON -->
+        <input type="text" placeholder="Username"/><br>
+        <input type="password" placeholder="Password"/> <br>
+        <input type="reset" value="DELETE ALL"/><br> 
+
+         <!-- OTHER TYPES -->
+        <h2> OTHER TYPES </h2>
+
+        <!-- volume range -->
+        <input type="range" min="0" max="100" /><br><br>
+        <!-- COLOR -->
+         <input type="color" value=""/> <br>
+        <!-- HIDDEN -->
+        <input type="hidden"/><br><br>
+
+        <!-- TEXTAREA ELEMENTS -->
+         <h2>TEXTAREA ELEMENTS </h2>
+
+         <textarea rows="4" cols="30" minlength="5"
+         placeholder="Sample Text Area" maxlength="10" required readonly> SJASHJXHAGSJXHGB
+         </textarea> <br><br>
+
+        <!-- SELECT ELEMENT -->
+          <select name="Vegetables">
+            <option name="Pechay"> Pechay </option>
+            <option name="Malunggay">Malunggay</option>
+            <option name="Eggplant">Eggplant</option>
+            <option name="Cabbage">Cabbage</option>
+            <option name="Others">Others</option>
+          </select><br>
+          <br>
+        <!-- OPTION GROUP -->
+          <select name="ACLC Employees" multiple>
+            <optgroup label="Admin">
+                <option name="Junabelle">Junnabelle</option>
+                <option name="Vida">Vida</option>
+                <option name=" Laine"> Laine </option>
+            </optgroup>
+            <optgroup label="Teachers">
+                <option name="Jovelyn">Jovelyn</option>
+                <option name="Michael">Michael</option>
+            </optgroup>
+          </select>
+
+          
+
+        
+        
+    </form>
+</body>
+</html>
