@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title> Registration Form </title>
+</head>
+<body>
+    <h1> Registration Form </h1>
+    <p> "Please fill out the following information to register." </p>
+    <form target="_blank"> 
+        <fieldset>
+           <label for="fname"> First Name: <input type="text" placeholder="Enter your Firstname"/> </label><br>
+           <label for="mname"> Middle Name: <input type="text" placeholder="Enter your Middlename"/> </label><br>
+           <label for="lname"> Last Name: <input type="text" placeholder="Enter your Lastname"/>    </label><br>
+           <label for="address">Address: <input type="text" placeholder="Enter your Address" />  </label><br>
+           <label for="birthday"> Birthday: <input type="date" id="birthday" name="birthday" required/>  </label><br>
+           <label> Gender: 
+                  <input type="radio" id="female" name="answer">
+                  <label for female="female" > Female </label>
+                  <input type="radio" id="male" name="answer">
+                  <label for male="male" > Male </label><br>
+
+       </fieldset>
+    
+       <fieldset>
+           <label for="email"> Email: <input type="email" paceholder="Enter your Email" id="email" name="email" required/> </label><br>
+           <label for="uname"> Username: <input type="uname" placeholder="Enter your Username" id="uname" name="uname" required/> </label><br>
+           <labe for="new-pw"> New Password: <input type="new-pw" placehoder="Enter your New password" id="new-pw" name="new-pw" required/> </label><br>
+           <label for="confirm-pw"> Confirm Password: <input type="password" placeholder="confirm your password" required/> </label><br>
+      </fieldset>   
+
+      <fieldset>
+           <label for="profile-pic"> Upload a profie picture <input type="file" id="profile-pc" name="profile-pic" required/> </label><br>
+           <label> Enter your Age: <input type="number" min="18" max="100" required/> </label><br>
+           <label> How did you hear about us? </label>
+              <select>
+                   <option value=""> Please choose one: </option>
+                   <option value="1"> Search Engine (Google, Yahoo, Bing, etc.) </option>
+                   <option value="2"> Social media platforms </option>
+                   <option value="3"> Radio </option>
+                   <option value="4"> Television </option>
+                   <option value="5"> Streaming Service Ad </option>
+                   <option value="6"> Newspaper / Online Newspaper </option>
+                   <option value="7"> Billboard </option>
+                   <option value="8"> Word of Mouth </option>
+                   <option value="9"> Refferal </option>
+                   <option vaue="10"> Other </option>
+                   
+              </select> <br>  
+
+           <label> Provide a bio: <textarea name="Provide a bio" id="bio" rows="3" cols="30" placeholder="I am a Computer Science"> </textarea></label><br> 
+           <label for="terms and conditions"> <input type="checkbox" id="terms and condition" name="terms and conditions" > I agree to the  </label> 
+                <a href="http://www.termfeed.com/blog/sample-terms-and-conditions-template/"> terms and conditions </a>
+
+      </fieldset>
+        <Button type="reset"> Clear form </Button>
+        <Button type="submit"> Register </Button>
+
+
+
+
+    </form>  
+</body>
+</html>
