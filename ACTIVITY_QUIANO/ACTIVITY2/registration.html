@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Registration Form </title>
+
+</head>
+<body>
+    <h1> Registration Form </h1>
+    <p> "Please fill out the following information to register" </p><br>
+    <Form target="_blank">
+    <fieldset> 
+        <label for="fname"> First Name: <input type="text" placeholder="Enter your First Name" id="fname" name="fname" required/></label><br>
+        <label for="mname"> Middle Name: <input type="text" placeholder="Enter your Middle Name" id="mname" name="mname" required/> </label><br>
+        <label for="lname"> Last Name: <input type="text" placeholder="Enter your Last Name" id="lname" name="lname" required/> </label><br>
+        <label for="address"> Address: <input type="text" placeholder="Enter your Address" id="address" name="address" required/> </label><br>
+        <label for="birthday"> Birthday: <input type="date" id="birthday" name="birthday" required/> </label><br>
+        <label> Gender: 
+            <input type="Radio" id="MALE" name="answer" checked>
+            <label for="MALE"> MALE </label>
+            <input type="Radio" id="FEMALE" name="answer">
+            <label for="FEMALE"> FEMALE </label><br>
+        </label><br>
+</fieldset><br>
+
+    <fieldset>
+        <label for="email"> Email: <input type="email" placeholder="Enter your Email" id="email" name="email" required/></label><br>
+        <label for="uname"> Username: <input type="uname" placeholder="Enter your Username" id="uname" name="uname" required/></label><br>
+        <label for="new-pw"> New Password: <input type="password" placeholder="Create a New Password" id="new-pw" name="new-pw" minlength="10" maxlength="15" required/></label><br>
+        <label for="confirm-pw"> Confirm Password: <input type="password" placeholder="Confirm your Password" id="confirm-pw" name="confirm-pw"  minlength="10" maxlength="15" required/></label><br>
+    </fieldset><br>
+
+    <fieldset>
+        <label for="profile-pic"> UPLOAD A PROFILE PICTURE  <input type="file" placeholder="Choose a profile picture" id="profile-pic" name="profile-pic" required/></label><br>
+        <label for="Age"> Enter your Age: <input type="number" placeholder="Enter your Age" id="age" name="age" min="18" max="100" required/> </label><br>
+        <label for="referrer"> "How did you hear about us?"
+        <select id="referrer" name="referrer"> <br>
+            <option value="" > Please choose one:</option>
+            <option value="1"> Search Engine (Google,Yahoo,Bing,Etc.)</option>
+            <option value="2">Social Media Platform</option>
+            <option value="3">Radio</option>
+            <option value="4">Television</option>
+            <option value="5">Streaming Service Ad</option>
+            <option value="6">Newspaper / Online Newspaper</option>
+            <option value="7">Billboard</option>
+            <option value="8">Word of Mouth</option>
+            <option value="9">Referral</option>
+            <option value="10">Others</option>  
+        </select>    
+        </label><br>
+        <label for="bio"> "Provide a bio:" <textarea name="bio" id="bio" cols="30" rows="3" placeholder="I am a Computer Science Student, of course..."></textarea></label><br>
+        <label for="terms-and-conditions"> Terms and Conditions <input type="checkbox" id="terms-and-condition" name="terms-and-conditions" required/> </label><br>
+         <a href="https://www.termsfeed.com/blog/simple-terms-and-conditions-template/" target="_blank"></a><br>
+    </fieldset><br>
+
+        <button type="reset"> Clear Form </button>
+        <button type="submit"> Register </button>
+    
+
+    </Form>
+</body>
+</html>
